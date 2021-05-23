@@ -24,6 +24,7 @@ app.use('/api/contacts', require('./routes/contacts'));
 
 //Serve static assests in production
 if (process.env.NODE_ENV === 'production') {
+	//Serve static assest in production
 	app.use(express.static('client/build'));
 
 	app.get('*', (req, res) =>
