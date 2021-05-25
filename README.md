@@ -1,6 +1,6 @@
 # Contact Manager App
 Contact Manger App is a full stack MERN application. 
-- usage of react hooks and context api.
+- usage of react hooks and contextAPI.
 - backend API with Express js. 
 - JWT authentication for authentication system.
 - usage of Mongoose for managing MongoDB.
